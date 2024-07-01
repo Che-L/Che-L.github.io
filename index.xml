@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Welcome to Brian&#39;s space</title>
+        <link>https://che-l.github.io./</link>
+        <description>This is my cool site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>2574260740@qq.com (Brian Liu)</managingEditor>
+            <webMaster>2574260740@qq.com (Brian Liu)</webMaster><lastBuildDate>Tue, 02 Jul 2024 01:58:15 &#43;0800</lastBuildDate>
+            <atom:link href="https://che-l.github.io./index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>我的中文简历</title>
+    <link>https://che-l.github.io./%E6%88%91%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86/</link>
+    <pubDate>Tue, 02 Jul 2024 01:58:15 &#43;0800</pubDate>
+    <author>Brian Liu</author>
+    <guid>https://che-l.github.io./%E6%88%91%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86/</guid>
+    <description><![CDATA[刘博文 联系电话：15729516191 &nbsp;&nbsp; 政治面貌：共青团员 电子邮箱：2574260740@bupt.edu.cn &nbsp;&nbsp; 现居住地：北京市海淀区 教育]]></description>
+</item>
+<item>
+    <title>My_English_Resume</title>
+    <link>https://che-l.github.io./my_english_resume/</link>
+    <pubDate>Tue, 02 Jul 2024 01:58:02 &#43;0800</pubDate>
+    <author>Brian Liu</author>
+    <guid>https://che-l.github.io./my_english_resume/</guid>
+    <description><![CDATA[Bowen Liu Telephone Number: 15729516191 &nbsp;&nbsp; E-mail Address: 2574260740@bupt.edu.cn
+Current Residence: Haidian District, Beijing &nbsp;&nbsp; Gender: Male
+Education Background Beijing University of Posts and Telecommunications 2021.09 ~ 2025.07 - Management degree 2025（Expected） Queen Mary University of London 2021.09 ~ 2025.07 - Engineering degree 2025（Expected） E-Commerce and Law / Bachelor's Degree Core Courses: Product Development and Management, Operations Research, Advanced Web Programming, Software Engineering, E-Commerce, etc. Awards of Honour: "Sports and Cultural Activist"]]></description>
+</item>
+</channel>
+</rss>
