@@ -1,57 +1,79 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Welcome to Brian's space</title>
-        <link>https://che-l.github.io/</link>
+        <link>https://che-l.github.io./</link>
         <description>This is my cool site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <managingEditor>2574260740@qq.com (Brian Liu)</managingEditor>
         <webMaster>2574260740@qq.com (Brian Liu)</webMaster>
-        <lastBuildDate>Fri, 24 Oct 2025 10:00:00 +0800</lastBuildDate>
-        <atom:link href="https://che-l.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Thu, 24 Oct 2025 10:00:00 +0800</lastBuildDate>
+        <atom:link href="https://che-l.github.io./index.xml" rel="self" type="application/rss+xml" />
 
-        <!-- 中文简历 -->
         <item>
             <title>我的中文简历</title>
-            <link>https://che-l.github.io/%E6%88%91%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86/</link>
-            <pubDate>Fri, 24 Oct 2025 10:00:00 +0800</pubDate>
-            <author>2574260740@qq.com (Brian Liu)</author>
-            <guid>https://che-l.github.io/%E6%88%91%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86/</guid>
+            <link>https://che-l.github.io./我的中文简历/</link>
+            <pubDate>Thu, 24 Oct 2025 10:00:00 +0800</pubDate>
+            <author>Brian Liu</author>
+            <guid>https://che-l.github.io./我的中文简历/</guid>
             <description><![CDATA[
-<div style='text-align: center; margin-bottom: 20px;'>
-<p>电话：15729516191 &nbsp;&nbsp; 邮箱：2574260740@qq.com &nbsp;&nbsp; 微信：LBW15729516191</p>
-</div>
-<div style='display: flex; justify-content: space-between;'>
-<span><b>布里斯托大学（QS 51）</b></span><span>2025.09 ~ 2026.09（在读）</span>
-</div>
-<div style='margin-left: 10px;'>- 计算机科学（硕士）</div>
-<div style='display: flex; justify-content: space-between; margin-top: 10px;'>
-<span><b>北京邮电大学</b></span><span>2021.09 ~ 2025.07</span>
-</div>
-<div style='margin-left: 10px;'>- 电子商务及法律（学士）</div>
-]]></description>
+        <p>刘博文</p>
+        <p>电话：15729516191 &nbsp;&nbsp; 邮箱：2574260740@qq.com &nbsp;&nbsp; 微信：LBW15729516191</p>
+        <h3>教育背景</h3>
+        <p>布里斯托大学（QS 51） 2025.09 ~ 2026.09（在读） - 计算机科学（硕士）</p>
+        <p>北京邮电大学 2021.09 ~ 2025.07 - 电子商务及法律（学士）</p>
+        <h3>技能</h3>
+        <p>核心技术：Java、C 语言、Linux 系统</p>
+        <p>自动化与运维工具：Python、Shell</p>
+        <p>科研与数据工具：PyTorch、SQL、Excel</p>
+        <p>办公技能：Office、PS / 视频剪辑</p>
+        <p>语言能力：CET-6、雅思6.5（L:6.0/R:7.5/W:6.0/S:6.0）</p>
+        <h3>工作经历</h3>
+        <p>索尼（中国）有限公司 2024.09~2025.01 - 运维工程师</p>
+        <p>新浪网技术（中国）有限公司 2024.05~2024.08 - 产品运营</p>
+        <p>榆中建能新能源有限公司 2022.12~2023.01 - 信息技术专员</p>
+        <h3>项目经历</h3>
+        <p>基于深度学习的音乐音频超分辨率 2024.11~2025.05</p>
+        <p>迷宫探索机器人系统 2023.06~2023.10</p>
+        <h3>校园经历</h3>
+        <p>班级团支书兼班长 2021.10~2025.06</p>
+        <p>院级学生代表 2021.11~2022.11</p>
+        <h3>自我评价</h3>
+        <p>性格开朗、稳重，待人真诚，有强烈的责任心，积极参与各类活动，对生活怀揣热烈的心；以实事求是的态度对待工作，执行力强，具备良好的沟通能力和团队协作能力，能快速融入团队。</p>
+      ]]></description>
         </item>
 
-        <!-- 英文简历 -->
         <item>
             <title>My English Resume</title>
-            <link>https://che-l.github.io/my_english_resume/</link>
-            <pubDate>Fri, 24 Oct 2025 10:00:00 +0800</pubDate>
-            <author>2574260740@qq.com (Brian Liu)</author>
-            <guid>https://che-l.github.io/my_english_resume/</guid>
+            <link>https://che-l.github.io./my_english_resume/</link>
+            <pubDate>Thu, 24 Oct 2025 10:00:00 +0800</pubDate>
+            <author>Brian Liu</author>
+            <guid>https://che-l.github.io./my_english_resume/</guid>
             <description><![CDATA[
-<div style='text-align: center; margin-bottom: 20px;'>
-<p>Phone: 15729516191 &nbsp;&nbsp; E-mail: 2574260740@qq.com &nbsp;&nbsp; WeChat: LBW15729516191</p>
-</div>
-<div style='display: flex; justify-content: space-between;'>
-<span><b>University of Bristol (QS 51)</b></span><span>2025.09 ~ 2026.09 (Ongoing)</span>
-</div>
-<div style='margin-left: 10px;'>- Computer Science (Master's)</div>
-<div style='display: flex; justify-content: space-between; margin-top: 10px;'>
-<span><b>Beijing University of Posts and Telecommunications</b></span><span>2021.09 ~ 2025.07</span>
-</div>
-<div style='margin-left: 10px;'>- E-Commerce and Law (Bachelor's)</div>
-]]></description>
+        <p>Bowen Liu</p>
+        <p>Phone: 15729516191 &nbsp;&nbsp; E-mail: 2574260740@bupt.edu.cn &nbsp;&nbsp; WeChat: LBW15729516191</p>
+        <h3>Education Background</h3>
+        <p>University of Bristol (QS 51) 2025.09 ~ 2026.09 (Ongoing) - Computer Science (Master's)</p>
+        <p>Beijing University of Posts and Telecommunications 2021.09 ~ 2025.07 - E-Commerce and Law (Bachelor's)</p>
+        <h3>Skills</h3>
+        <p>Core Skills: Java, C, Linux</p>
+        <p>Automation & DevOps Tools: Python, Shell</p>
+        <p>Data & Research Tools: PyTorch, SQL, Excel</p>
+        <p>Office Skills: Office, Photoshop / Video Editing</p>
+        <p>Languages: CET-6, IELTS 6.5 (L:6.0 / R:7.5 / W:6.0 / S:6.0)</p>
+        <h3>Work Experience</h3>
+        <p>Sony (China) Co., Ltd. 2024.09~2025.01 - DevOps Engineer</p>
+        <p>Sina Tech (China) Co., Ltd. 2024.05~2024.08 - Product Operations</p>
+        <p>Yuzhong Jianneng New Energy Co., Ltd. 2022.12~2023.01 - IT Specialist</p>
+        <h3>Project Experience</h3>
+        <p>Audio Super-Resolution based on Deep Learning 2024.11~2025.05</p>
+        <p>Maze Exploration Robot System 2023.06~2023.10</p>
+        <h3>Campus Experience</h3>
+        <p>Class President & League Secretary 2021.10~2025.06</p>
+        <p>College Student Representative 2021.11~2022.11</p>
+        <h3>Self Evaluation</h3>
+        <p>Cheerful, steady, sincere, strong sense of responsibility, actively participates in various activities, and passionate about life; approaches work realistically, executes effectively, communicates well, collaborates in teams, and quickly integrates.</p>
+      ]]></description>
         </item>
 
     </channel>
