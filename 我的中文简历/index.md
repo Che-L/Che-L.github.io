@@ -1,9 +1,9 @@
 # 我的中文简历
 
-<div style="text-align: center;">
-  <h2>刘博文</h2>
-  <p>联系电话：15210159150 &nbsp;&nbsp; </p>
-  <p>电子邮箱：2574260740@qq.com &nbsp;&nbsp; </p>
+## 刘博文
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <p>电话：15729516191 &nbsp;&nbsp; 邮箱：2574260740@qq.com &nbsp;&nbsp; 微信：LBW15729516191</p>
 </div>
 
 
@@ -21,121 +21,114 @@
 </div>
 <div style="margin-left: 10px;">- 电子商务及法律（学士）</div>
 
-
 ## 专业技能
 
 <div style="display: flex; flex-direction: column; gap: 8px; max-width: 800px;">
-
   <div style="display: flex; flex-wrap: wrap;">
-    <span style="flex: 0 0 160px; font-weight: bold;">核心技术：</span>
-    <span style="flex: 1;">Java、C语言、Linux</span>
+    <span style="flex: 0 0 180px; font-weight: bold;">核心技术：</span>
+    <span style="flex: 1;">Java、C 语言、Linux 系统</span>
   </div>
-
   <div style="display: flex; flex-wrap: wrap;">
-    <span style="flex: 0 0 160px; font-weight: bold;">自动化与运维工具：</span>
+    <span style="flex: 0 0 180px; font-weight: bold;">自动化与运维工具：</span>
     <span style="flex: 1;">Python、Shell</span>
   </div>
-
   <div style="display: flex; flex-wrap: wrap;">
-    <span style="flex: 0 0 160px; font-weight: bold;">科研与数据工具：</span>
+    <span style="flex: 0 0 180px; font-weight: bold;">科研与数据工具：</span>
     <span style="flex: 1;">PyTorch、SQL、Excel</span>
   </div>
-
   <div style="display: flex; flex-wrap: wrap;">
-    <span style="flex: 0 0 160px; font-weight: bold;">办公技能：</span>
-    <span style="flex: 1;">Office、Ps、Pr</span>
+    <span style="flex: 0 0 180px; font-weight: bold;">办公技能：</span>
+    <span style="flex: 1;">Office、PS / 视频剪辑</span>
   </div>
-
   <div style="display: flex; flex-wrap: wrap;">
-    <span style="flex: 0 0 160px; font-weight: bold;">语言能力：</span>
+    <span style="flex: 0 0 180px; font-weight: bold;">语言能力：</span>
     <span style="flex: 1;">CET-6、雅思6.5（L:6.0/R:7.5/W:6.0/S:6.0）</span>
   </div>
-
   <div style="display: flex; flex-wrap: wrap;">
-    <span style="flex: 0 0 160px; font-weight: bold;">荣誉奖项：</span>
+    <span style="flex: 0 0 180px; font-weight: bold;">荣誉奖项：</span>
     <span style="flex: 1;">优秀班干部、优秀团员、文体积极分子、“2023联合学生创新中心设计与建设项目”校级三等奖</span>
   </div>
-
   <div style="display: flex; flex-wrap: wrap;">
-    <span style="flex: 0 0 160px; font-weight: bold;">个人优势：</span>
+    <span style="flex: 0 0 180px; font-weight: bold;">个人优势：</span>
     <span style="flex: 1;">
-      世界500强（索尼）运维开发经验，精通 Python/Shell 自动化开发；头部互联网（新浪）产品运营背景，善于衔接技术与业务；拥有4年学生工作经历，跨团队沟通与问题解决能力突出，能快速融入并赋能技术团队。
+      世界 500 强（索尼）运维开发经验，精通 Python/Shell 自动化开发；头部互联网（新浪）产品运营背景，善于衔接技术与业务；拥有 4 年学生工作经历，跨团队沟通与问题解决能力突出，能快速融入并赋能技术团队。
     </span>
   </div>
-
 </div>
-
 
 ## 实习经历
 
 <div style="display: flex; justify-content: space-between;">
-  <span><b>榆中建能新能源科技有限公司</b></span>
-  <span>2022.12 ~ 2023.01</span>
+  <span><b>索尼（中国）有限公司</b></span>
+  <span>2024.09~2025.01</span>
 </div>
-<div style="margin-left: 10px;">市场开发部门</div>
+<div style="margin-left: 10px;">运维工程师</div>
 <ul style="margin-left: 20px;">
-  <li>负责软文工作，协助完成报表工作，深入了解市场需求，推动产品在目标市场的销售</li>
+  <li>负责音乐数据库和服务器的运维工作，确保系统的稳定性和高可用性，监控系统性能，及时应对和解决故障</li>
+  <li>对接 Naxos、Pias 等 9 家唱片公司音频文件处理需求，使用 Python 开发自动化脚本，将单个文件处理时长从 5 分钟缩短至 1 分钟，效率提升 80%，交付周期缩短 60%</li>
+  <li>开发数据库故障转移自动化脚本，将服务器故障恢复时间从 5 分钟缩短至 1 分钟，提高系统连续性</li>
+  <li>使用 Shell 编写数据整理脚本，实现 100GB+ 非结构化数据结构化，数据查询效率提升 40%</li>
 </ul>
 
 <div style="display: flex; justify-content: space-between;">
-  <span><b>新浪公司</b></span>
-  <span>2024.05 ~ 2024.08</span>
+  <span><b>新浪网技术（中国）有限公司</b></span>
+  <span>2024.05~2024.08</span>
 </div>
-<div style="margin-left: 10px;">产品部门</div>
+<div style="margin-left: 10px;">产品运营</div>
 <ul style="margin-left: 20px;">
-  <li>负责产品运营，为产品的可持续化运用提出可行建议，同各部门协调完成相关工作</li>
+  <li>负责互联网新闻产品运营，协同技术团队梳理用户需求，推动 3 处核心代码缺陷修复，系统故障率下降 25%</li>
+  <li>定期分析 20+ 新闻官媒微博账号数据（粉丝数、粉丝增长数、文章阅读量等），汇总撰写数据周报</li>
+</ul>
+
+<div style="display: flex; justify-content: space-between;">
+  <span><b>榆中建能新能源有限公司</b></span>
+  <span>2022.12~2023.01</span>
+</div>
+<div style="margin-left: 10px;">信息技术专员</div>
+<ul style="margin-left: 20px;">
+  <li>负责公司每周数据报表整理（200+ 条数据 / 周），通过数据清洗与格式校验确保报表准确率 100%</li>
+  <li>优化数据归档流程，规范文件存储格式，数据查询效率提升 30%，减少部门数据处理工时 15 小时 / 月</li>
 </ul>
 
 ## 项目经历
 
 <div style="display: flex; justify-content: space-between;">
-  <span><b>基于机器学习的高铁客流量监管系统</b></span>
-  <span>2023.07 ~ 2023.11</span>
+  <span><b>基于深度学习的音乐音频超分辨率</b></span>
+  <span>2024.11~2025.05</span>
 </div>
-<div style="margin-left: 10px;">项目负责人</div>
+<div style="margin-left: 10px;">毕业设计</div>
 <ul style="margin-left: 20px;">
-  <li>收集高铁客流量相关数据，对数据进行科学处理分析，基于机器学习建立模型以预测高铁客流量</li>
+  <li>基于 WaveNet 自回归模型构建音频超分辨率框架，实现低采样音乐信号高保真重建</li>
+  <li>构建包含 861 首音乐样本的训练数据集，并在 PyTorch + CUDA 平台完成模型训练与性能优化</li>
+  <li>模型在 PSNR、SSIM、SNR 及主观听感测试上显著优于 CNN 与传统方法，验证音乐音质提升有效性</li>
 </ul>
 
 <div style="display: flex; justify-content: space-between;">
   <span><b>迷宫探索机器人系统</b></span>
-  <span>2023.06 ~ 2023.10</span>
+  <span>2023.06~2023.10</span>
 </div>
 <div style="margin-left: 10px;">项目成员</div>
 <ul style="margin-left: 20px;">
-  <li>负责构建数据库，设计前端用户交互页面，完成相关逻辑组件以及交互功能的编程工作</li>
+  <li>通过 SQL 设计并优化项目数据库架构，确保数据存储和检索高效可靠</li>
+  <li>使用 Eclipse 开发前端用户交互界面，设计并实现核心逻辑组件，优化系统性能</li>
+  <li>该系统在多个测试迷宫中表现出色，获得“2023联合学生创新中心设计与建设项目”校级三等奖，并被推荐用于课设展示</li>
 </ul>
 
 ## 校园经历
 
 <div style="display: flex; justify-content: space-between;">
   <span><b>班级团支书兼班长</b></span>
-  <span>2021.09 ~ 今</span>
+  <span>2021.10~2025.06</span>
 </div>
 <ul style="margin-left: 20px;">
-  <li>负责班级团支部的建设、组织工作；任职期间带领班集体荣获“优秀班集体”、“优秀团支部”荣誉称号</li>
+  <li>统筹班级团支部建设与日常管理，组织 20+ 场主题团日活动，带领班级获校级“优秀班集体”、院级“优秀团支部”</li>
 </ul>
 
 <div style="display: flex; justify-content: space-between;">
   <span><b>院级学生代表</b></span>
-  <span>2021.11 ~ 今</span>
+  <span>2021.11~2022.11</span>
 </div>
 <ul style="margin-left: 20px;">
-  <li>参与学院学生代表大会，完成对应学生工作</li>
-</ul>
-
-## 专业技能
-
-<ul style="margin-left: 20px;">
-  <li>语言能力：CET-6、雅思 6.0</li>
-  <li>专业能力：熟悉 C++、Java、Python 编程语言；熟练运用 HTML、CSS、JavaScript 等前端工具</li>
-  <li>办公能力：熟练使用数据透视表，数据可视化以及 Excel 的常见函数，能够对复杂数据进行汇总梳理</li>
-</ul>
-
-## 自我评价
-
-<ul style="margin-left: 20px;">
-  <li>性格开朗，稳重，待人真诚，有强烈的责任心，积极参与各类活动，对生活怀揣一颗热烈的心</li>
-  <li>以实事求是的态度对待工作，执行力强，具备良好的沟通能力和团队协作能力，能快速融入团队</li>
+  <li>组织并主持 2 场院级学生代表大会（覆盖 200+ 师生），收集并推动学生提案落地，解决学生科研与日常需求</li>
 </ul>
 
