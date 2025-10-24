@@ -24,46 +24,35 @@
 
 ## 专业技能
 
-<div style="display: flex; flex-direction: column; gap: 8px; max-width: 800px;">
-
-  <div style="display: flex; flex-wrap: wrap;">
-    <span style="flex: 0 0 160px; font-weight: bold;">核心技术：</span>
-    <span style="flex: 1;">Java、C语言、Linux</span>
-  </div>
-
-  <div style="display: flex; flex-wrap: wrap;">
-    <span style="flex: 0 0 160px; font-weight: bold;">自动化与运维工具：</span>
-    <span style="flex: 1;">Python、Shell</span>
-  </div>
-
-  <div style="display: flex; flex-wrap: wrap;">
-    <span style="flex: 0 0 160px; font-weight: bold;">科研与数据工具：</span>
-    <span style="flex: 1;">PyTorch、SQL、Excel</span>
-  </div>
-
-  <div style="display: flex; flex-wrap: wrap;">
-    <span style="flex: 0 0 160px; font-weight: bold;">办公技能：</span>
-    <span style="flex: 1;">Office、Ps、Pr</span>
-  </div>
-
-  <div style="display: flex; flex-wrap: wrap;">
-    <span style="flex: 0 0 160px; font-weight: bold;">语言能力：</span>
-    <span style="flex: 1;">CET-6、雅思6.5（L:6.0/R:7.5/W:6.0/S:6.0）</span>
-  </div>
-
-  <div style="display: flex; flex-wrap: wrap;">
-    <span style="flex: 0 0 160px; font-weight: bold;">荣誉奖项：</span>
-    <span style="flex: 1;">优秀班干部、优秀团员、文体积极分子、“2023联合学生创新中心设计与建设项目”校级三等奖</span>
-  </div>
-
-  <div style="display: flex; flex-wrap: wrap;">
-    <span style="flex: 0 0 160px; font-weight: bold;">个人优势：</span>
-    <span style="flex: 1;">
-      世界500强（索尼）运维开发经验，精通 Python/Shell 自动化开发；头部互联网（新浪）产品运营背景，善于衔接技术与业务；拥有4年学生工作经历，跨团队沟通与问题解决能力突出，能快速融入并赋能技术团队。
-    </span>
-  </div>
-
+<div style="display: flex; justify-content: space-between;">
+  <span><b>核心技术：</b></span>
+  <span>Java、C语言、Linux</span>
 </div>
+<div style="display: flex; justify-content: space-between;">
+  <span><b>自动化与运维工具：</b></span>
+  <span>Python、Shell</span>
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <span><b>科研与数据工具：</b></span>
+  <span>PyTorch、SQL、Excel</span>
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <span><b>办公技能：</b></span>
+  <span>Office、Ps、Pr</span>
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <span><b>语言能力：</b></span>
+  <span>CET-6、雅思6.5（L:6.0/R:7.5/W:6.0/S:6.0）</span>
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <span><b>荣誉奖项：</b></span>
+  <span>优秀班干部、优秀团员、文体积极分子、“2023联合学生创新中心设计与建设项目”校级三等奖</span>
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <span><b>个人优势：</b></span>
+  <span>世界500强（索尼）运维开发经验，精通 Python/Shell 自动化开发；头部互联网（新浪）产品运营背景，善于衔接技术与业务；拥有4年学生工作经历，跨团队沟通与问题解决能力突出，能快速融入并赋能技术团队。</span>
+</div>
+
 
 
 ## 实习经历
