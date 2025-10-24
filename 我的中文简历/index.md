@@ -1,35 +1,70 @@
 # 我的中文简历
 
-
 <div style="text-align: center;">
   <h2>刘博文</h2>
-  <p>联系电话：15729516191 &nbsp;&nbsp; 政治面貌：共青团员</p>
-  <p>电子邮箱：2574260740@bupt.edu.cn &nbsp;&nbsp; 现居住地：北京市海淀区</p>
+  <p>联系电话：15210159150 &nbsp;&nbsp; </p>
+  <p>电子邮箱：2574260740@qq.com &nbsp;&nbsp; </p>
 </div>
+
 
 ## 教育背景
 
 <div style="display: flex; justify-content: space-between;">
+  <span><b>布里斯托大学（QS 51）</b></span>
+  <span>2025.09 ~ 2026.09（在读）</span>
+</div>
+<div style="margin-left: 10px;">- 计算机科学（硕士）</div>
+
+<div style="display: flex; justify-content: space-between; margin-top: 10px;">
   <span><b>北京邮电大学</b></span>
   <span>2021.09 ~ 2025.07</span>
 </div>
-<div style="margin-left: 10px;">- 管理学学士 <span style="float: right;">2025（预计）</span></div>
-<div style="display: flex; justify-content: space-between;">
-  <span><b>Queen Mary University of London</b></span>
-  <span>2021.09 ~ 2025.07</span>
-</div>
-<div style="margin-left: 10px;">- 工科学士 <span style="float: right;">2025（预计）</span></div>
+<div style="margin-left: 10px;">- 电子商务及法律（学士）</div>
 
-<div>
-    <span><b>专业名称:<b><span>
-    <span>电子商务及法律<span>
-    <span>(E-commerce Engineering with Law)<span>
+
+## 专业技能
+
+<div style="display: flex; flex-direction: column; gap: 8px; max-width: 800px;">
+
+  <div style="display: flex; flex-wrap: wrap;">
+    <span style="flex: 0 0 160px; font-weight: bold;">核心技术：</span>
+    <span style="flex: 1;">Java、C语言、Linux</span>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap;">
+    <span style="flex: 0 0 160px; font-weight: bold;">自动化与运维工具：</span>
+    <span style="flex: 1;">Python、Shell</span>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap;">
+    <span style="flex: 0 0 160px; font-weight: bold;">科研与数据工具：</span>
+    <span style="flex: 1;">PyTorch、SQL、Excel</span>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap;">
+    <span style="flex: 0 0 160px; font-weight: bold;">办公技能：</span>
+    <span style="flex: 1;">Office、Ps、Pr</span>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap;">
+    <span style="flex: 0 0 160px; font-weight: bold;">语言能力：</span>
+    <span style="flex: 1;">CET-6、雅思6.5（L:6.0/R:7.5/W:6.0/S:6.0）</span>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap;">
+    <span style="flex: 0 0 160px; font-weight: bold;">荣誉奖项：</span>
+    <span style="flex: 1;">优秀班干部、优秀团员、文体积极分子、“2023联合学生创新中心设计与建设项目”校级三等奖</span>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap;">
+    <span style="flex: 0 0 160px; font-weight: bold;">个人优势：</span>
+    <span style="flex: 1;">
+      世界500强（索尼）运维开发经验，精通 Python/Shell 自动化开发；头部互联网（新浪）产品运营背景，善于衔接技术与业务；拥有4年学生工作经历，跨团队沟通与问题解决能力突出，能快速融入并赋能技术团队。
+    </span>
+  </div>
+
 </div>
 
-<ul style="margin-left: 20px;">
-  <li>核心课程：产品开发及管理、运筹学、高级网络编程、企业管理、软件工程、数据结构、电子商务等</li>
-  <li>荣誉奖项：“文体积极分子”、优秀团员、“2023联合学生创新中心设计与建设项目”三等奖</li>
-</ul>
 
 ## 实习经历
 
