@@ -1,0 +1,32 @@
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # 当 main 分支有更新时触发
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ 检出仓库源码
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2️⃣ 安装 Hugo
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.123.0'  # 根据你的 Hugo 版本调整
+
+      # 3️⃣ 构建 Hugo 网站
+      - name: Build Hugo site
+        run: hugo --minify  # 可选 --minify 压缩 HTML/CSS/JS
+
+      # 4️⃣ 部署到 gh-pages 分支
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public  # Hugo 默认生成的目录
