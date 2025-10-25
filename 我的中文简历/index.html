@@ -74,39 +74,29 @@ body {
 /* 简历项布局 */
 .resume-item {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 10px;
     flex-wrap: wrap;
-    align-items: center; /* 垂直居中 */
+    align-items: center;
 }
-
-/* 左侧内容 */
 .resume-item b {
-    flex: 0 0 auto;  /* 内容宽度自适应 */
+    flex: 0 0 auto;
     margin-right: 16px;
     color: #4a90e2;
     font-weight: 600;
 }
 
-/* 右侧日期 */
-.resume-item span {
+/* 右侧日期，仅针对 has-date 类 */
+.resume-item.has-date span {
     flex: 0 0 auto;
-    color: #555;
-    margin-left: auto; /* 推到最右侧 */
+    margin-left: auto;
     text-align: right;
 }
 
-/* 小屏幕处理 */
-@media(max-width:768px){
-    .resume-item {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .resume-item span {
-        margin-left: 0;
-        margin-top: 4px;
-        text-align: left;
-    }
+/* 普通条目 span 不右对齐 */
+.resume-item:not(.has-date) span {
+    flex: 1;
+    color: #555;
 }
 
 /* 列表样式 */
@@ -132,12 +122,14 @@ body {
 
 /* 响应式 */
 @media(max-width:768px){
-    .resume-item b {
-        flex: 0 0 100%;
-        margin-bottom: 6px;
+    .resume-item {
+        flex-direction: column;
+        align-items: flex-start;
     }
-    .resume-section {
-        padding: 20px 20px;
+    .resume-item.has-date span {
+        margin-left: 0;
+        margin-top: 4px;
+        text-align: left;
     }
 }
 
@@ -214,7 +206,7 @@ if((theme&&theme==="dark")||(!theme&&window.matchMedia("(prefers-color-scheme: d
                         </span>
                     </div>
                     <div class="post-meta-line">
-                        <i class="far fa-calendar-alt fa-fw"></i> 2025-10-25
+                        <i class="far fa-calendar-alt fa-fw"></i> 2024-07-02
                         &nbsp;<i class="fas fa-pencil-alt fa-fw"></i> 744 words
                         &nbsp;<i class="far fa-clock fa-fw"></i> 2 minutes
                     </div>
@@ -229,9 +221,9 @@ if((theme&&theme==="dark")||(!theme&&window.matchMedia("(prefers-color-scheme: d
                     <!-- 教育背景 -->
                     <div class="resume-section">
                         <h2>教育背景</h2>
-                        <div class="resume-item"><b>布里斯托大学（QS 51）</b><span>2025.09 ~ 2026.09</span></div>
+                        <div class="resume-item has-date"><b>布里斯托大学（QS 51）</b><span>2025.09 ~ 2026.09</span></div>
                         <div style="margin-left:10px;">- 计算机科学（硕士）</div>
-                        <div class="resume-item" style="margin-top:10px;"><b>北京邮电大学</b><span>2021.09 ~ 2025.07</span></div>
+                        <div class="resume-item has-date" style="margin-top:10px;"><b>北京邮电大学</b><span>2021.09 ~ 2025.07</span></div>
                         <div style="margin-left:10px;">- 电子商务及法律（学士）</div>
                     </div>
 
@@ -250,7 +242,7 @@ if((theme&&theme==="dark")||(!theme&&window.matchMedia("(prefers-color-scheme: d
                     <!-- 实习经历 -->
                     <div class="resume-section">
                         <h2>实习经历</h2>
-                        <div class="resume-item"><b>索尼（中国）有限公司</b><span>2024.09~2025.01</span></div>
+                        <div class="resume-item has-date"><b>索尼（中国）有限公司</b><span>2024.09~2025.01</span></div>
                         <div style="margin-left:10px;">运维工程师</div>
                         <ul>
                             <li>负责音乐数据库和服务器的运维工作，确保系统稳定性</li>
@@ -259,14 +251,14 @@ if((theme&&theme==="dark")||(!theme&&window.matchMedia("(prefers-color-scheme: d
                             <li>Shell 数据整理脚本处理 100GB+ 数据，查询效率提升 40%</li>
                         </ul>
 
-                        <div class="resume-item"><b>新浪网技术（中国）有限公司</b><span>2024.05~2024.08</span></div>
+                        <div class="resume-item has-date"><b>新浪网技术（中国）有限公司</b><span>2024.05~2024.08</span></div>
                         <div style="margin-left:10px;">产品运营</div>
                         <ul>
                             <li>协同技术团队梳理需求，推动核心代码缺陷修复，系统故障率下降 25%</li>
                             <li>分析 20+ 新闻官媒微博数据，撰写数据周报</li>
                         </ul>
 
-                        <div class="resume-item"><b>榆中建能新能源有限公司</b><span>2022.12~2023.01</span></div>
+                        <div class="resume-item has-date"><b>榆中建能新能源有限公司</b><span>2022.12~2023.01</span></div>
                         <div style="margin-left:10px;">信息技术专员</div>
                         <ul>
                             <li>整理每周 200+ 条数据报表，保证准确率 100%</li>
@@ -277,7 +269,7 @@ if((theme&&theme==="dark")||(!theme&&window.matchMedia("(prefers-color-scheme: d
                     <!-- 项目经历 -->
                     <div class="resume-section">
                         <h2>项目经历</h2>
-                        <div class="resume-item"><b>基于深度学习的音乐音频超分辨率</b><span>2024.11~2025.05</span></div>
+                        <div class="resume-item has-date"><b>基于深度学习的音乐音频超分辨率</b><span>2024.11~2025.05</span></div>
                         <div style="margin-left:10px;">毕业设计</div>
                         <ul>
                             <li>基于 WaveNet 构建音频超分辨率框架，实现低采样音乐信号高保真重建</li>
@@ -285,7 +277,7 @@ if((theme&&theme==="dark")||(!theme&&window.matchMedia("(prefers-color-scheme: d
                             <li>模型在 PSNR、SSIM、SNR 及主观听感测试上优于传统方法</li>
                         </ul>
 
-                        <div class="resume-item"><b>迷宫探索机器人系统</b><span>2023.06~2023.10</span></div>
+                        <div class="resume-item has-date"><b>迷宫探索机器人系统</b><span>2023.06~2023.10</span></div>
                         <div style="margin-left:10px;">项目成员</div>
                         <ul>
                             <li>设计并优化数据库架构，确保数据高效存储与检索</li>
@@ -297,12 +289,12 @@ if((theme&&theme==="dark")||(!theme&&window.matchMedia("(prefers-color-scheme: d
                     <!-- 校园经历 -->
                     <div class="resume-section">
                         <h2>校园经历</h2>
-                        <div class="resume-item"><b>班级团支书兼班长</b><span>2021.10~2025.06</span></div>
+                        <div class="resume-item has-date"><b>班级团支书兼班长</b><span>2021.10~2025.06</span></div>
                         <ul>
                             <li>统筹班级团支部建设，组织 20+ 场主题团日活动，获校级优秀班集体、院级优秀团支部</li>
                         </ul>
 
-                        <div class="resume-item"><b>院级学生代表</b><span>2021.11~2022.11</span></div>
+                        <div class="resume-item has-date"><b>院级学生代表</b><span>2021.11~2022.11</span></div>
                         <ul>
                             <li>主持院级学生代表大会，推动学生提案落地</li>
                         </ul>
