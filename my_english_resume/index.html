@@ -8,7 +8,7 @@
     <meta name="Description" content="My English Resume">
     <meta property="og:url" content="https://che-l.github.io./%E6%88%91%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86/">
     <meta property="og:site_name" content="Welcome to Brian's space">
-    <meta property="og:title" content="My Chinese Resume">
+    <meta property="og:title" content="My English Resume">
     <meta property="og:description" content="Brian Liu | Tel: 15210159150 | Email: 2574260740@qq.com">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
@@ -16,77 +16,145 @@
     <link rel="stylesheet" href="/css/style.min.css">
     <link rel="stylesheet" href="/lib/fontawesome-free/all.min.css">
     <link rel="stylesheet" href="/lib/animate/animate.min.css">
+
     <style>
-        /* Resume card style */
+        /* ======== Layout Base ======== */
+        body {
+          background-color: #f5f7fa;
+          margin: 0;
+          font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+          color: #333;
+          line-height: 1.6;
+        }
+
+        .container {
+          max-width: 900px;
+          margin: 0 auto;
+          padding: 15px;
+        }
+
+        .single-title {
+          text-align: center;
+          font-size: 1.8em;
+          margin-top: 20px;
+          margin-bottom: 10px;
+        }
+
+        /* ======== Resume Card Style ======== */
         .resume-section {
-            background-color: #fff;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-            padding: 20px 25px;
-            margin-bottom: 25px;
+          background-color: #fff;
+          border-radius: 12px;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+          padding: 20px 25px;
+          margin-bottom: 25px;
         }
+
         .resume-section h2 {
-            border-left: 4px solid #4a90e2;
-            padding-left: 10px;
-            margin-bottom: 15px;
-            color: #333;
+          border-left: 4px solid #4a90e2;
+          padding-left: 10px;
+          margin-bottom: 15px;
+          color: #333;
+          font-size: 1.3em;
         }
+
         .resume-item {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 5px;
-            flex-wrap: wrap;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          margin-bottom: 6px;
         }
+
         .resume-item b {
-            flex: 0 0 200px;
-            margin-right: 10px;
+          flex: 0 0 220px;
+          font-weight: 600;
+          color: #222;
         }
+
         .resume-item span {
-            flex: 1;
+          flex: 1;
+          text-align: right;
+          color: #555;
         }
+
         .resume-content ul {
-            padding-left: 20px;
-            margin-bottom: 15px;
+          padding-left: 20px;
+          margin-top: 6px;
+          margin-bottom: 10px;
         }
+
+        ul li {
+          margin-bottom: 6px;
+        }
+
+        /* ======== Responsive Design ======== */
         @media (max-width: 768px) {
-            .resume-item b {
-                flex: 0 0 100%;
-                margin-bottom: 5px;
-            }
+          .container {
+            padding: 10px;
+          }
+
+          .single-title {
+            font-size: 1.5em;
+          }
+
+          .resume-section {
+            padding: 15px 18px;
+          }
+
+          .resume-item {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+
+          .resume-item b {
+            flex: none;
+            margin-bottom: 4px;
+          }
+
+          .resume-item span {
+            text-align: left;
+            margin-bottom: 5px;
+          }
+
+          .resume-section h2 {
+            font-size: 1.2em;
+          }
+
+          ul li {
+            font-size: 0.95em;
+          }
+        }
+
+        @media (max-width: 480px) {
+          body {
+            font-size: 15px;
+          }
+
+          .resume-section {
+            padding: 12px 15px;
+          }
+
+          .single-title {
+            font-size: 1.3em;
+          }
         }
     </style>
 </head>
+
 <body data-header-desktop="fixed" data-header-mobile="auto">
 <script>
-    (window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');
+    (window.localStorage && localStorage.getItem('theme')
+      ? localStorage.getItem('theme') === 'dark'
+      : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')
+    ) && document.body.setAttribute('theme', 'dark');
 </script>
 
 <div class="wrapper">
-
-    <!-- Header -->
-    <header class="desktop" id="header-desktop">
-        <!-- ...Original header content retained... -->
-    </header>
-    <header class="mobile" id="header-mobile">
-        <!-- ...Original header content retained... -->
-    </header>
-
     <main class="main">
         <div class="container">
             <article class="page single">
                 <h1 class="single-title animate__animated animate__flipInX">My Resume (Chinese Version)</h1>
-                <div class="post-meta">
-                    <div class="post-meta-line">
-                        <span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw"></i> Brian Liu</a></span>
-                    </div>
-                    <div class="post-meta-line">
-                        <i class="far fa-calendar-alt fa-fw"></i> 2024-07-02
-                        &nbsp;<i class="fas fa-pencil-alt fa-fw"></i> 744 words
-                        &nbsp;<i class="far fa-clock fa-fw"></i> 2 minutes
-                    </div>
-                </div>
 
-                <!-- Resume Content -->
+                <!-- ========== Resume Start ========== -->
                 <div class="resume-content">
 
                     <div class="resume-section" style="text-align:center;">
@@ -162,7 +230,7 @@
                         </ul>
                     </div>
 
-                    <!-- Campus Activities -->
+                    <!-- Campus -->
                     <div class="resume-section">
                         <h2>Campus Experience</h2>
                         <div class="resume-item"><b>Class League Secretary & Monitor</b><span>2021.10~2025.06</span></div>
@@ -176,32 +244,17 @@
                         </ul>
                     </div>
                 </div>
-
-                <!-- Footer -->
-                <div class="post-footer" id="post-footer">
-                    <!-- ...Original footer content retained... -->
-                </div>
             </article>
         </div>
     </main>
 
     <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-line"><i class="far fa-copyright fa-fw"></i> 2024 <a href="/">Brian Liu</a></div>
+        <div class="footer-container" style="text-align:center; padding:10px 0; font-size:0.9em;">
+            <i class="far fa-copyright fa-fw"></i>
+            2024 <a href="/" style="color:#4a90e2; text-decoration:none;">Brian Liu</a>
         </div>
     </footer>
 </div>
 
-<div id="fixed-buttons">
-    <a href="#" id="back-to-top" class="fixed-button" title="Back to Top"><i class="fas fa-arrow-up fa-fw"></i></a>
-    <a href="#" id="view-comments" class="fixed-button" title="View Comments"><i class="fas fa-comment fa-fw"></i></a>
-</div>
-
-<script src="/lib/autocomplete/autocomplete.min.js"></script>
-<script src="/lib/lunr/lunr.min.js"></script>
-<script src="/lib/lazysizes/lazysizes.min.js"></script>
-<script src="/lib/clipboard/clipboard.min.js"></script>
-<script src="/lib/sharer/sharer.min.js"></script>
-<script src="/js/theme.min.js"></script>
 </body>
 </html>
