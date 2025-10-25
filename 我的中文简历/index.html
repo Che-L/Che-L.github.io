@@ -5,53 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noodp" />
     <title>我的中文简历 - Welcome to Brian's space</title>
-    <meta name="Description" content="This is my cool site">
+    <meta name="Description" content="我的中文简历">
     <meta property="og:url" content="https://che-l.github.io./%E6%88%91%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86/">
     <meta property="og:site_name" content="Welcome to Brian's space">
     <meta property="og:title" content="我的中文简历">
     <meta property="og:description" content="刘博文 联系电话：15210159150 电子邮箱：2574260740@qq.com">
     <meta property="og:locale" content="zh_CN">
     <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-07-02T01:58:15+08:00">
-    <meta property="article:modified_time" content="2024-07-02T01:58:15+08:00">
     <meta property="og:image" content="https://che-l.github.io./Avater/AppleProfile.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://che-l.github.io./Avater/AppleProfile.jpg">
-    <meta name="twitter:title" content="我的中文简历">
-    <meta name="twitter:description" content="刘博文 联系电话：15210159150 电子邮箱：2574260740@qq.com">
-    <meta name="application-name" content="My cool site">
-    <meta name="apple-mobile-web-app-title" content="My cool site">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="canonical" href="https://che-l.github.io./%E6%88%91%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86/" />
-    <link rel="prev" href="https://che-l.github.io./my_english_resume/" />
     <link rel="stylesheet" href="/css/style.min.css">
-    <link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript>
-    <link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript>
+    <link rel="stylesheet" href="/lib/fontawesome-free/all.min.css">
+    <link rel="stylesheet" href="/lib/animate/animate.min.css">
+    <style>
+        /* 简历卡片样式 */
+        .resume-section {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            padding: 20px 25px;
+            margin-bottom: 25px;
+        }
+        .resume-section h2 {
+            border-left: 4px solid #4a90e2;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .resume-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            flex-wrap: wrap;
+        }
+        .resume-item b {
+            flex: 0 0 200px;
+            margin-right: 10px;
+        }
+        .resume-item span {
+            flex: 1;
+        }
+        .resume-content ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        @media (max-width: 768px) {
+            .resume-item b {
+                flex: 0 0 100%;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
 </head>
 <body data-header-desktop="fixed" data-header-mobile="auto">
-<script type="text/javascript">
+<script>
     (window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');
 </script>
 
-<div id="mask"></div>
 <div class="wrapper">
 
-    <!-- Header 保留原始结构 -->
+    <!-- Header -->
     <header class="desktop" id="header-desktop">
-        <!-- ...省略重复 header 内容 ... -->
+        <!-- ...原始 header 内容可保留... -->
     </header>
     <header class="mobile" id="header-mobile">
-        <!-- ...省略重复 header 内容 ... -->
+        <!-- ...原始 header 内容可保留... -->
     </header>
 
     <main class="main">
@@ -59,124 +76,110 @@
             <article class="page single">
                 <h1 class="single-title animate__animated animate__flipInX">我的中文简历</h1>
                 <div class="post-meta">
-                    <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw"></i>Brian Liu</a></span></div>
-                    <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-07-02">2024-07-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;744 words&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;2 minutes&nbsp;</div>
+                    <div class="post-meta-line">
+                        <span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw"></i> Brian Liu</a></span>
+                    </div>
+                    <div class="post-meta-line">
+                        <i class="far fa-calendar-alt fa-fw"></i> 2024-07-02
+                        &nbsp;<i class="fas fa-pencil-alt fa-fw"></i> 744 words
+                        &nbsp;<i class="far fa-clock fa-fw"></i> 2 minutes
+                    </div>
                 </div>
 
                 <!-- 简历内容 -->
-                <div class="content" id="content">
-                    <div style="text-align: center; margin-bottom: 20px;">
+                <div class="resume-content">
+
+                    <div class="resume-section" style="text-align:center;">
                         <h2>刘博文</h2>
                         <p>电话：15210159150 &nbsp;&nbsp; 邮箱：2574260740@qq.com &nbsp;&nbsp; 微信：LBW15729516191</p>
                     </div>
 
                     <!-- 教育背景 -->
-                    <h2 id="教育背景">教育背景</h2>
-                    <div style="display: flex; justify-content: space-between;">
-                        <span><b>布里斯托大学（QS 51）</b></span>
-                        <span>2025.09 ~ 2026.09</span>
+                    <div class="resume-section">
+                        <h2>教育背景</h2>
+                        <div class="resume-item"><b>布里斯托大学（QS 51）</b><span>2025.09 ~ 2026.09</span></div>
+                        <div style="margin-left:10px;">- 计算机科学（硕士）</div>
+                        <div class="resume-item" style="margin-top:10px;"><b>北京邮电大学</b><span>2021.09 ~ 2025.07</span></div>
+                        <div style="margin-left:10px;">- 电子商务及法律（学士）</div>
                     </div>
-                    <div style="margin-left: 10px;">- 计算机科学（硕士）</div>
-
-                    <div style="display: flex; justify-content: space-between; margin-top: 10px;">
-                        <span><b>北京邮电大学</b></span>
-                        <span>2021.09 ~ 2025.07</span>
-                    </div>
-                    <div style="margin-left: 10px;">- 电子商务及法律（学士）</div>
 
                     <!-- 专业技能 -->
-                    <h2 id="专业技能">专业技能</h2>
-                    <div style="display: flex; flex-direction: column; gap: 10px; max-width: 800px;">
-                        <div style="display: flex; flex-wrap: wrap;"><span style="flex: 0 0 180px;"><b>核心技术：</b></span><span style="flex: 1;">Java、C 语言、Linux 系统</span></div>
-                        <div style="display: flex; flex-wrap: wrap;"><span style="flex: 0 0 180px;"><b>自动化与运维工具：</b></span><span style="flex: 1;">Python、Shell</span></div>
-                        <div style="display: flex; flex-wrap: wrap;"><span style="flex: 0 0 180px;"><b>科研与数据工具：</b></span><span style="flex: 1;">PyTorch、SQL、Excel</span></div>
-                        <div style="display: flex; flex-wrap: wrap;"><span style="flex: 0 0 180px;"><b>办公技能：</b></span><span style="flex: 1;">Office、PS / 视频剪辑</span></div>
-                        <div style="display: flex; flex-wrap: wrap;"><span style="flex: 0 0 180px;"><b>语言能力：</b></span><span style="flex: 1;">CET-6、雅思6.5（L:6.0/R:7.5/W:6.0/S:6.0）</span></div>
-                        <div style="display: flex; flex-wrap: wrap;"><span style="flex: 0 0 180px;"><b>荣誉奖项：</b></span><span style="flex: 1;">优秀班干部、优秀团员、文体积极分子、“2023联合学生创新中心设计与建设项目”校级三等奖</span></div>
-                        <div style="display: flex; flex-wrap: wrap;"><span style="flex: 0 0 180px;"><b>个人优势：</b></span><span style="flex: 1;">世界 500 强（索尼）运维开发经验，精通 Python/Shell 自动化开发；头部互联网（新浪）产品运营背景，善于衔接技术与业务；拥有 4 年学生工作经历，跨团队沟通与问题解决能力突出。</span></div>
+                    <div class="resume-section">
+                        <h2>专业技能</h2>
+                        <div class="resume-item"><b>核心技术：</b><span>Java、C 语言、Linux 系统</span></div>
+                        <div class="resume-item"><b>自动化与运维工具：</b><span>Python、Shell</span></div>
+                        <div class="resume-item"><b>科研与数据工具：</b><span>PyTorch、SQL、Excel</span></div>
+                        <div class="resume-item"><b>办公技能：</b><span>Office、PS / 视频剪辑</span></div>
+                        <div class="resume-item"><b>语言能力：</b><span>CET-6、雅思6.5（L:6.0/R:7.5/W:6.0/S:6.0）</span></div>
+                        <div class="resume-item"><b>荣誉奖项：</b><span>优秀班干部、优秀团员、文体积极分子、校级三等奖</span></div>
+                        <div class="resume-item"><b>个人优势：</b><span>索尼运维开发经验，精通 Python/Shell；新浪产品运营背景；4 年学生工作经验，跨团队沟通与问题解决能力突出。</span></div>
                     </div>
 
                     <!-- 实习经历 -->
-                    <h2 id="实习经历">实习经历</h2>
-                    <div style="display: flex; justify-content: space-between;">
-                        <span><b>索尼（中国）有限公司</b></span>
-                        <span>2024.09~2025.01</span>
-                    </div>
-                    <div style="margin-left: 10px;">运维工程师</div>
-                    <ul style="margin-left: 20px;">
-                        <li>负责音乐数据库和服务器的运维工作，确保系统稳定性与高可用性</li>
-                        <li>对接 9 家唱片公司音频文件处理需求，Python 自动化脚本将处理时长缩短 80%</li>
-                        <li>开发数据库故障转移自动化脚本，将服务器恢复时间从 5 分钟缩短至 1 分钟</li>
-                        <li>使用 Shell 编写数据整理脚本，实现 100GB+ 非结构化数据结构化，查询效率提升 40%</li>
-                    </ul>
+                    <div class="resume-section">
+                        <h2>实习经历</h2>
+                        <div class="resume-item"><b>索尼（中国）有限公司</b><span>2024.09~2025.01</span></div>
+                        <div style="margin-left:10px;">运维工程师</div>
+                        <ul>
+                            <li>负责音乐数据库和服务器的运维工作，确保系统稳定性</li>
+                            <li>Python 自动化脚本将文件处理时长缩短 80%</li>
+                            <li>开发数据库故障转移自动化脚本，将服务器恢复时间缩短至 1 分钟</li>
+                            <li>Shell 数据整理脚本处理 100GB+ 数据，查询效率提升 40%</li>
+                        </ul>
 
-                    <div style="display: flex; justify-content: space-between;">
-                        <span><b>新浪网技术（中国）有限公司</b></span>
-                        <span>2024.05~2024.08</span>
-                    </div>
-                    <div style="margin-left: 10px;">产品运营</div>
-                    <ul style="margin-left: 20px;">
-                        <li>协同技术团队梳理用户需求，推动 3 处核心代码缺陷修复，系统故障率下降 25%</li>
-                        <li>分析 20+ 新闻官媒微博数据，撰写数据周报</li>
-                    </ul>
+                        <div class="resume-item"><b>新浪网技术（中国）有限公司</b><span>2024.05~2024.08</span></div>
+                        <div style="margin-left:10px;">产品运营</div>
+                        <ul>
+                            <li>协同技术团队梳理需求，推动核心代码缺陷修复，系统故障率下降 25%</li>
+                            <li>分析 20+ 新闻官媒微博数据，撰写数据周报</li>
+                        </ul>
 
-                    <div style="display: flex; justify-content: space-between;">
-                        <span><b>榆中建能新能源有限公司</b></span>
-                        <span>2022.12~2023.01</span>
+                        <div class="resume-item"><b>榆中建能新能源有限公司</b><span>2022.12~2023.01</span></div>
+                        <div style="margin-left:10px;">信息技术专员</div>
+                        <ul>
+                            <li>整理每周 200+ 条数据报表，保证准确率 100%</li>
+                            <li>优化数据归档流程，查询效率提升 30%，减少工时 15 小时/月</li>
+                        </ul>
                     </div>
-                    <div style="margin-left: 10px;">信息技术专员</div>
-                    <ul style="margin-left: 20px;">
-                        <li>负责公司每周数据报表整理（200+ 条/周），保证准确率 100%</li>
-                        <li>优化数据归档流程，查询效率提升 30%，减少部门工时 15 小时/月</li>
-                    </ul>
 
                     <!-- 项目经历 -->
-                    <h2 id="项目经历">项目经历</h2>
-                    <div style="display: flex; justify-content: space-between;">
-                        <span><b>基于深度学习的音乐音频超分辨率</b></span>
-                        <span>2024.11~2025.05</span>
-                    </div>
-                    <div style="margin-left: 10px;">毕业设计</div>
-                    <ul style="margin-left: 20px;">
-                        <li>基于 WaveNet 自回归模型构建音频超分辨率框架，实现低采样音乐信号高保真重建</li>
-                        <li>构建 861 首音乐样本训练数据集，在 PyTorch + CUDA 完成模型训练与优化</li>
-                        <li>模型在 PSNR、SSIM、SNR 及主观听感测试上优于 CNN 与传统方法</li>
-                    </ul>
+                    <div class="resume-section">
+                        <h2>项目经历</h2>
+                        <div class="resume-item"><b>基于深度学习的音乐音频超分辨率</b><span>2024.11~2025.05</span></div>
+                        <div style="margin-left:10px;">毕业设计</div>
+                        <ul>
+                            <li>基于 WaveNet 构建音频超分辨率框架，实现低采样音乐信号高保真重建</li>
+                            <li>训练 861 首音乐样本，使用 PyTorch + CUDA 平台</li>
+                            <li>模型在 PSNR、SSIM、SNR 及主观听感测试上优于传统方法</li>
+                        </ul>
 
-                    <div style="display: flex; justify-content: space-between;">
-                        <span><b>迷宫探索机器人系统</b></span>
-                        <span>2023.06~2023.10</span>
+                        <div class="resume-item"><b>迷宫探索机器人系统</b><span>2023.06~2023.10</span></div>
+                        <div style="margin-left:10px;">项目成员</div>
+                        <ul>
+                            <li>设计并优化数据库架构，确保数据高效存储与检索</li>
+                            <li>使用 Eclipse 开发前端交互界面，设计核心逻辑组件</li>
+                            <li>项目获校级三等奖，多迷宫测试表现优异</li>
+                        </ul>
                     </div>
-                    <div style="margin-left: 10px;">项目成员</div>
-                    <ul style="margin-left: 20px;">
-                        <li>设计并优化项目数据库架构，确保数据存储和检索高效</li>
-                        <li>使用 Eclipse 开发前端用户交互界面，设计核心逻辑组件</li>
-                        <li>项目在多迷宫测试中表现优异，获校级三等奖</li>
-                    </ul>
 
                     <!-- 校园经历 -->
-                    <h2 id="校园经历">校园经历</h2>
-                    <div style="display: flex; justify-content: space-between;">
-                        <span><b>班级团支书兼班长</b></span>
-                        <span>2021.10~2025.06</span>
-                    </div>
-                    <ul style="margin-left: 20px;">
-                        <li>统筹班级团支部建设与日常管理，组织 20+ 场主题团日活动，带领班级获校级“优秀班集体”、院级“优秀团支部”</li>
-                    </ul>
+                    <div class="resume-section">
+                        <h2>校园经历</h2>
+                        <div class="resume-item"><b>班级团支书兼班长</b><span>2021.10~2025.06</span></div>
+                        <ul>
+                            <li>统筹班级团支部建设，组织 20+ 场主题团日活动，获校级优秀班集体、院级优秀团支部</li>
+                        </ul>
 
-                    <div style="display: flex; justify-content: space-between;">
-                        <span><b>院级学生代表</b></span>
-                        <span>2021.11~2022.11</span>
+                        <div class="resume-item"><b>院级学生代表</b><span>2021.11~2022.11</span></div>
+                        <ul>
+                            <li>主持院级学生代表大会，推动学生提案落地</li>
+                        </ul>
                     </div>
-                    <ul style="margin-left: 20px;">
-                        <li>组织并主持 2 场院级学生代表大会，推动学生提案落地</li>
-                    </ul>
                 </div>
-                <!-- 简历内容结束 -->
 
                 <!-- 页脚 -->
                 <div class="post-footer" id="post-footer">
-                    <!-- ...原始页脚内容 ... -->
+                    <!-- ...保留原页脚内容... -->
                 </div>
             </article>
         </div>
@@ -184,34 +187,21 @@
 
     <footer class="footer">
         <div class="footer-container">
-            <div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork">
-                <i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Brian Liu</a></span>
-            </div>
+            <div class="footer-line"><i class="far fa-copyright fa-fw"></i> 2024 <a href="/">Brian Liu</a></div>
         </div>
     </footer>
 </div>
 
 <div id="fixed-buttons">
-    <a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
-        <i class="fas fa-arrow-up fa-fw"></i>
-    </a>
-    <a href="#" id="view-comments" class="fixed-button" title="View Comments">
-        <i class="fas fa-comment fa-fw"></i>
-    </a>
+    <a href="#" id="back-to-top" class="fixed-button" title="Back to Top"><i class="fas fa-arrow-up fa-fw"></i></a>
+    <a href="#" id="view-comments" class="fixed-button" title="View Comments"><i class="fas fa-comment fa-fw"></i></a>
 </div>
 
-<link rel="stylesheet" href="/lib/katex/katex.min.css">
-<link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css">
-<script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script>
-<script type="text/javascript" src="/lib/lunr/lunr.min.js"></script>
-<script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script>
-<script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script>
-<script type="text/javascript" src="/lib/sharer/sharer.min.js"></script>
-<script type="text/javascript" src="/lib/katex/katex.min.js"></script>
-<script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script>
-<script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script>
-<script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script>
-<script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script>
-<script type="text/javascript" src="/js/theme.min.js"></script>
+<script src="/lib/autocomplete/autocomplete.min.js"></script>
+<script src="/lib/lunr/lunr.min.js"></script>
+<script src="/lib/lazysizes/lazysizes.min.js"></script>
+<script src="/lib/clipboard/clipboard.min.js"></script>
+<script src="/lib/sharer/sharer.min.js"></script>
+<script src="/js/theme.min.js"></script>
 </body>
 </html>
