@@ -77,16 +77,36 @@ body {
     justify-content: space-between;
     margin-bottom: 10px;
     flex-wrap: wrap;
+    align-items: center; /* 垂直居中 */
 }
+
+/* 左侧内容 */
 .resume-item b {
-    flex: 0 0 180px;
+    flex: 0 0 auto;  /* 内容宽度自适应 */
     margin-right: 16px;
     color: #4a90e2;
     font-weight: 600;
 }
+
+/* 右侧日期 */
 .resume-item span {
-    flex: 1;
+    flex: 0 0 auto;
     color: #555;
+    margin-left: auto; /* 推到最右侧 */
+    text-align: right;
+}
+
+/* 小屏幕处理 */
+@media(max-width:768px){
+    .resume-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .resume-item span {
+        margin-left: 0;
+        margin-top: 4px;
+        text-align: left;
+    }
 }
 
 /* 列表样式 */
