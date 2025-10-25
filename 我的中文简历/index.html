@@ -1,28 +1,178 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noodp" />
-    <title>我的中文简历 - Welcome to Brian's space</title>
-    <meta name="Description" content="我的中文简历">
-    <meta property="og:url" content="https://che-l.github.io./%E6%88%91%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86/">
-    <meta property="og:site_name" content="Welcome to Brian's space">
-    <meta property="og:title" content="我的中文简历">
-    <meta property="og:description" content="刘博文 联系电话：15210159150 电子邮箱：2574260740@qq.com">
-    <meta property="og:locale" content="zh_CN">
-    <meta property="og:type" content="article">
-    <meta property="og:image" content="https://che-l.github.io./Avater/AppleProfile.jpg">
-    <link rel="stylesheet" href="/css/style.min.css">
-    <link rel="stylesheet" href="/lib/fontawesome-free/all.min.css">
-    <link rel="stylesheet" href="/lib/animate/animate.min.css">
-    <style>.resume-section{background-color:#fff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.05);padding:20px 25px;margin-bottom:25px}.resume-section h2{border-left:4px solid #4a90e2;padding-left:10px;margin-bottom:15px;color:#333}.resume-item{display:flex;justify-content:space-between;margin-bottom:5px;flex-wrap:wrap}.resume-item b{flex:0 0 200px;margin-right:10px}.resume-item span{flex:1}.resume-content ul{padding-left:20px;margin-bottom:15px}@media(max-width:768px){.resume-item b{flex:0 0 100%;margin-bottom:5px}}</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noodp" />
+<title>我的中文简历 - Welcome to Brian's space</title>
+<meta name="Description" content="我的中文简历">
+<meta property="og:url" content="https://che-l.github.io./%E6%88%91%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86/">
+<meta property="og:site_name" content="Welcome to Brian's space">
+<meta property="og:title" content="我的中文简历">
+<meta property="og:description" content="刘博文 联系电话：15210159150 电子邮箱：2574260740@qq.com">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://che-l.github.io./Avater/AppleProfile.jpg">
+<link rel="stylesheet" href="/css/style.min.css">
+<link rel="stylesheet" href="/lib/fontawesome-free/all.min.css">
+<link rel="stylesheet" href="/lib/animate/animate.min.css">
+
+<style>
+/* 字体与基础 */
+body {
+    font-family: "PingFang SC","Microsoft YaHei",sans-serif;
+    background-color: #f0f2f7;
+    color: #333;
+    line-height: 1.65;
+    margin:0;
+}
+
+/* 页面标题 */
+.single-title {
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+    margin: 40px 0 30px 0;
+}
+
+/* 简历卡片 */
+.resume-section {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    padding: 28px 32px;
+    margin-bottom: 32px;
+    transition: all 0.3s ease;
+}
+.resume-section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+}
+
+/* 卡片标题 */
+.resume-section h2 {
+    border-left: 6px solid #4a90e2;
+    padding-left: 14px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    color: #222;
+}
+
+/* 居中卡片信息 */
+.resume-section[style*="text-align:center;"] h2 {
+    font-size: 2rem;
+    color: #4a90e2;
+}
+.resume-section[style*="text-align:center;"] p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 6px;
+}
+
+/* 简历项布局 */
+.resume-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.resume-item b {
+    flex: 0 0 180px;
+    margin-right: 16px;
+    color: #4a90e2;
+    font-weight: 600;
+}
+.resume-item span {
+    flex: 1;
+    color: #555;
+}
+
+/* 列表样式 */
+.resume-content ul {
+    padding-left: 28px;
+    margin-bottom: 20px;
+}
+.resume-content ul li {
+    margin-bottom: 8px;
+    position: relative;
+}
+.resume-content ul li::before {
+    content:"";
+    width: 8px;
+    height: 8px;
+    background-color: #4a90e2;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+/* 响应式 */
+@media(max-width:768px){
+    .resume-item b {
+        flex: 0 0 100%;
+        margin-bottom: 6px;
+    }
+    .resume-section {
+        padding: 20px 20px;
+    }
+}
+
+/* 页脚样式 */
+.footer {
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+.footer a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* 固定按钮 */
+#fixed-buttons .fixed-button {
+    background-color: #4a90e2;
+    color: #fff;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    transition: all 0.3s ease;
+}
+#fixed-buttons .fixed-button:hover {
+    background-color: #357ABD;
+    transform: translateY(-3px);
+}
+
+/* 高亮文本 */
+b {
+    font-weight: 600;
+}
+</style>
 </head>
 <body data-header-desktop="fixed" data-header-mobile="auto">
-<script>const theme=localStorage.getItem("theme");if((theme&&theme==="dark")||(!theme&&window.matchMedia("(prefers-color-scheme: dark)").matches)){document.body.setAttribute("theme","dark");}</script>
+
+<script>
+const theme=localStorage.getItem("theme");
+if((theme&&theme==="dark")||(!theme&&window.matchMedia("(prefers-color-scheme: dark)").matches)){
+    document.body.setAttribute("theme","dark");
+}
+</script>
 
 <div class="wrapper">
-
     <!-- Header -->
     <header class="desktop" id="header-desktop">
         <!-- ...原始 header 内容可保留... -->
@@ -44,15 +194,13 @@
                         </span>
                     </div>
                     <div class="post-meta-line">
-                        <i class="far fa-calendar-alt fa-fw"></i> 2024-07-02
+                        <i class="far fa-calendar-alt fa-fw"></i> 2025-10-25
                         &nbsp;<i class="fas fa-pencil-alt fa-fw"></i> 744 words
                         &nbsp;<i class="far fa-clock fa-fw"></i> 2 minutes
                     </div>
                 </div>
 
-                <!-- 简历内容 -->
                 <div class="resume-content">
-
                     <div class="resume-section" style="text-align:center;">
                         <h2>刘博文</h2>
                         <p>电话：15210159150 &nbsp;&nbsp; 邮箱：2574260740@qq.com &nbsp;&nbsp; 微信：LBW15729516191</p>
@@ -141,7 +289,6 @@
                     </div>
                 </div>
 
-                <!-- 页脚 -->
                 <div class="post-footer" id="post-footer">
                     <!-- ...保留原页脚内容... -->
                 </div>
