@@ -1,91 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noodp">
-    <title>My Resume - Welcome to Brian's Space</title>
-    <meta name="description" content="Brian Liu's English Resume">
-    <meta property="og:url" content="https://che-l.github.io/My-English-Resume/">
-    <meta property="og:site_name" content="Welcome to Brian's Space">
-    <meta property="og:title" content="My Resume">
-    <meta property="og:description" content="Brian Liu | Phone: 15210159150 | Email: 2574260740@qq.com">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="article">
-    <meta property="og:image" content="https://che-l.github.io/Avater/AppleProfile.jpg">
-    <link rel="stylesheet" href="/css/style.min.css">
-    <link rel="stylesheet" href="/lib/fontawesome-free/all.min.css">
-    <link rel="stylesheet" href="/lib/animate/animate.min.css">
-    <style>
-        /* Resume Card Styles */
-        .resume-section {
-            background-color: #fff;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-            padding: 20px 25px;
-            margin-bottom: 25px;
-        }
-        .resume-section h2 {
-            border-left: 4px solid #4a90e2;
-            padding-left: 10px;
-            margin-bottom: 15px;
-            color: #333;
-        }
-        .resume-section.center {
-            text-align: center;
-        }
-        .resume-item {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin-bottom: 8px;
-        }
-        .resume-item b {
-            flex: 0 0 200px;
-            margin-right: 10px;
-        }
-        .resume-item span {
-            flex: 1;
-        }
-        .resume-item + ul {
-            margin-top: 5px;
-            padding-left: 20px;
-        }
-        .indent {
-            margin-left: 10px;
-        }
-        @media (max-width: 768px) {
-            .resume-item b {
-                flex: 0 0 100%;
-                margin-bottom: 5px;
-            }
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noodp" />
+<title>My Resume - Welcome to Brian's space</title>
+<meta name="Description" content="My English Resume">
+<meta property="og:url" content="https://che-l.github.io./my-english-resume/">
+<meta property="og:site_name" content="Welcome to Brian's space">
+<meta property="og:title" content="My Resume">
+<meta property="og:description" content="Brian Liu Contact: 15210159150 Email: 2574260740@qq.com">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://che-l.github.io./Avater/AppleProfile.jpg">
+<link rel="stylesheet" href="/css/style.min.css">
+<link rel="stylesheet" href="/lib/fontawesome-free/all.min.css">
+<link rel="stylesheet" href="/lib/animate/animate.min.css">
+
+<style>
+/* Fonts & Base */
+body {
+    font-family: "Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    background-color: #f0f2f7;
+    color: #333;
+    line-height: 1.65;
+    margin:0;
+}
+
+/* Page title */
+.single-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+    margin: 40px 0 30px 0;
+}
+
+/* Resume Card */
+.resume-section {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    padding: 28px 32px;
+    margin-bottom: 32px;
+    transition: all 0.3s ease;
+}
+.resume-section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+}
+
+/* Section title */
+.resume-section h2 {
+    border-left: 6px solid #4a90e2;
+    padding-left: 14px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    color: #222;
+}
+
+/* Centered card info */
+.resume-section[style*="text-align:center;"] h2 {
+    font-size: 2rem;
+    color: #4a90e2;
+}
+.resume-section[style*="text-align:center;"] p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 6px;
+}
+
+/* Resume item layout */
+.resume-item {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.resume-item b {
+    flex: 0 0 auto;
+    margin-right: 16px;
+    color: #4a90e2;
+    font-weight: 600;
+}
+
+/* Right-aligned date for has-date items */
+.resume-item.has-date span {
+    flex: 0 0 auto;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* Normal content span */
+.resume-item:not(.has-date) span {
+    flex: 1;
+    color: #555;
+}
+
+/* List style */
+.resume-content ul {
+    padding-left: 28px;
+    margin-bottom: 20px;
+}
+.resume-content ul li {
+    margin-bottom: 8px;
+    position: relative;
+}
+.resume-content ul li::before {
+    content:"";
+    width: 8px;
+    height: 8px;
+    background-color: #4a90e2;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    .resume-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .resume-item.has-date span {
+        margin-left: 0;
+        margin-top: 4px;
+        text-align: left;
+    }
+}
+
+/* Footer */
+.footer {
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+.footer a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Fixed buttons */
+#fixed-buttons .fixed-button {
+    background-color: #4a90e2;
+    color: #fff;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    transition: all 0.3s ease;
+}
+#fixed-buttons .fixed-button:hover {
+    background-color: #357ABD;
+    transform: translateY(-3px);
+}
+
+/* Bold text */
+b {
+    font-weight: 600;
+}
+</style>
 </head>
 <body data-header-desktop="fixed" data-header-mobile="auto">
 
 <script>
-    // Dark mode toggle
-    const theme = localStorage.getItem('theme') || 'auto';
-    if (theme === 'dark' || (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.body.setAttribute('theme', 'dark');
-    }
+const theme=localStorage.getItem("theme");
+if((theme&&theme==="dark")||(!theme&&window.matchMedia("(prefers-color-scheme: dark)").matches)){
+    document.body.setAttribute("theme","dark");
+}
 </script>
 
 <div class="wrapper">
     <!-- Header -->
     <header class="desktop" id="header-desktop">
-        <!-- Original header content -->
+        <!-- ...original header content... -->
     </header>
     <header class="mobile" id="header-mobile">
-        <!-- Original header content -->
+        <!-- ...original header content... -->
     </header>
 
     <main class="main">
         <div class="container">
             <article class="page single">
                 <h1 class="single-title animate__animated animate__flipInX">My Resume</h1>
-
                 <div class="post-meta">
                     <div class="post-meta-line">
                         <span class="post-author">
@@ -102,102 +212,97 @@
                 </div>
 
                 <div class="resume-content">
-
-                    <!-- Personal Info -->
-                    <section class="resume-section center">
+                    <div class="resume-section" style="text-align:center;">
                         <h2>Brian Liu</h2>
                         <p>Phone: 15210159150 &nbsp;&nbsp; Email: 2574260740@qq.com &nbsp;&nbsp; WeChat: LBW15729516191</p>
-                    </section>
+                    </div>
 
                     <!-- Education -->
-                    <section class="resume-section">
+                    <div class="resume-section">
                         <h2>Education</h2>
-                        <div class="resume-item"><b>University of Bristol (QS 51)</b><span>Sep 2025 ~ Sep 2026</span></div>
-                        <p class="indent">- Master of Computer Science</p>
-                        <div class="resume-item"><b>Beijing University of Posts and Telecommunications</b><span>Sep 2021 ~ Jul 2025</span></div>
-                        <p class="indent">- Bachelor of E-commerce and Law</p>
-                    </section>
+                        <div class="resume-item has-date"><b>University of Bristol (QS 51)</b><span>2025.09 ~ 2026.09</span></div>
+                        <div style="margin-left:10px;">- MSc Computer Science</div>
+                        <div class="resume-item has-date" style="margin-top:10px;"><b>Beijing University of Posts and Telecommunications</b><span>2021.09 ~ 2025.07</span></div>
+                        <div style="margin-left:10px;">- BSc E-Commerce and Law</div>
+                    </div>
 
                     <!-- Skills -->
-                    <section class="resume-section">
+                    <div class="resume-section">
                         <h2>Skills</h2>
-                        <div class="resume-item"><b>Core Technologies:</b><span>Java, C, Linux</span></div>
-                        <div class="resume-item"><b>Automation & DevOps Tools:</b><span>Python, Shell</span></div>
-                        <div class="resume-item"><b>Research & Data Tools:</b><span>PyTorch, SQL, Excel</span></div>
-                        <div class="resume-item"><b>Office Skills:</b><span>Office, Photoshop, Video Editing</span></div>
-                        <div class="resume-item"><b>Languages:</b><span>CET-6, IELTS 6.5 (L:6.0 / R:7.5 / W:6.0 / S:6.0)</span></div>
-                        <div class="resume-item"><b>Awards & Honors:</b><span>Outstanding Class Leader, Excellent League Member, Cultural & Sports Active Participant, University Third Prize</span></div>
-                        <div class="resume-item"><b>Strengths:</b><span>Experience in Sony DevOps; proficient in Python/Shell; background in Sina product operations; 4 years of student leadership experience with strong cross-team communication and problem-solving skills.</span></div>
-                    </section>
+                        <div class="resume-item"><b>Core Skills:</b><span>Java, C, Linux</span></div>
+                        <div class="resume-item"><b>Automation & DevOps:</b><span>Python, Shell</span></div>
+                        <div class="resume-item"><b>Data & Research:</b><span>PyTorch, SQL, Excel</span></div>
+                        <div class="resume-item"><b>Office & Tools:</b><span>Office, Photoshop, Video Editing</span></div>
+                        <div class="resume-item"><b>Languages:</b><span>CET-6, IELTS 6.5 (L:6.0/R:7.5/W:6.0/S:6.0)</span></div>
+                        <div class="resume-item"><b>Awards:</b><span>Outstanding Class Cadre, Excellent League Member, Sports & Culture Awards, University Third Prize</span></div>
+                        <div class="resume-item"><b>Strengths:</b><span>Experience in Sony DevOps, proficient in Python/Shell; background in Sina product operation; 4 years of student leadership, excellent cross-team communication and problem solving.</span></div>
+                    </div>
 
-                    <!-- Internship Experience -->
-                    <section class="resume-section">
-                        <h2>Internship Experience</h2>
-
-                        <div class="resume-item"><b>Sony (China) Co., Ltd.</b><span>Sep 2024 ~ Jan 2025</span></div>
-                        <p class="indent">Operations Engineer</p>
+                    <!-- Experience -->
+                    <div class="resume-section">
+                        <h2>Internships</h2>
+                        <div class="resume-item has-date"><b>Sony (China) Co., Ltd.</b><span>2024.09~2025.01</span></div>
+                        <div style="margin-left:10px;">Operations Engineer</div>
                         <ul>
-                            <li>Maintained music database and server operations to ensure system stability</li>
-                            <li>Reduced file processing time by 80% using Python automation scripts</li>
-                            <li>Developed database failover automation, reducing server recovery time to 1 minute</li>
-                            <li>Optimized Shell scripts to process 100GB+ data, improving query efficiency by 40%</li>
+                            <li>Managed music database and server operations ensuring system stability</li>
+                            <li>Python automation scripts reduced file processing time by 80%</li>
+                            <li>Developed automated failover scripts reducing server recovery to 1 minute</li>
+                            <li>Shell data scripts processed 100GB+ data, improving query efficiency by 40%</li>
                         </ul>
 
-                        <div class="resume-item"><b>Sina Tech (China) Co., Ltd.</b><span>May 2024 ~ Aug 2024</span></div>
-                        <p class="indent">Product Operations</p>
+                        <div class="resume-item has-date"><b>Sina Technology (China) Co., Ltd.</b><span>2024.05~2024.08</span></div>
+                        <div style="margin-left:10px;">Product Operations</div>
                         <ul>
-                            <li>Collaborated with tech team to refine requirements and fix core code issues, reducing system failure rate by 25%</li>
-                            <li>Analyzed 20+ official media Weibo accounts and prepared weekly data reports</li>
+                            <li>Collaborated with technical team to streamline requirements, reduced system failure by 25%</li>
+                            <li>Analyzed 20+ official media Weibo accounts and produced weekly reports</li>
                         </ul>
 
-                        <div class="resume-item"><b>Yuzhong Janneng New Energy Co., Ltd.</b><span>Dec 2022 ~ Jan 2023</span></div>
-                        <p class="indent">IT Specialist</p>
+                        <div class="resume-item has-date"><b>Yuzhong Jianneng New Energy Co., Ltd.</b><span>2022.12~2023.01</span></div>
+                        <div style="margin-left:10px;">IT Specialist</div>
                         <ul>
-                            <li>Compiled 200+ weekly data reports with 100% accuracy</li>
-                            <li>Optimized data archiving process, improved query efficiency by 30%, saving 15 hours/month</li>
+                            <li>Compiled 200+ weekly data reports, maintaining 100% accuracy</li>
+                            <li>Optimized data archiving, improving query efficiency by 30%, saving 15 hours/month</li>
                         </ul>
-                    </section>
+                    </div>
 
                     <!-- Projects -->
-                    <section class="resume-section">
+                    <div class="resume-section">
                         <h2>Projects</h2>
-
-                        <div class="resume-item"><b>Deep Learning Based Music Audio Super-Resolution</b><span>Nov 2024 ~ May 2025</span></div>
-                        <p class="indent">Graduation Project</p>
+                        <div class="resume-item has-date"><b>Audio Super-Resolution Based on Deep Learning</b><span>2024.11~2025.05</span></div>
+                        <div style="margin-left:10px;">Graduation Project</div>
                         <ul>
-                            <li>Built audio super-resolution framework using WaveNet for high-fidelity reconstruction of low-sample music signals</li>
-                            <li>Trained 861 music samples on PyTorch + CUDA platform</li>
-                            <li>Outperformed traditional methods in PSNR, SSIM, SNR, and subjective listening tests</li>
+                            <li>Built WaveNet-based audio super-resolution framework for high-fidelity reconstruction</li>
+                            <li>Trained 861 music samples using PyTorch + CUDA</li>
+                            <li>Model outperformed traditional methods in PSNR, SSIM, SNR and subjective listening tests</li>
                         </ul>
 
-                        <div class="resume-item"><b>Maze Exploration Robot System</b><span>Jun 2023 ~ Oct 2023</span></div>
-                        <p class="indent">Team Member</p>
+                        <div class="resume-item has-date"><b>Maze Exploration Robot System</b><span>2023.06~2023.10</span></div>
+                        <div style="margin-left:10px;">Team Member</div>
                         <ul>
-                            <li>Designed and optimized database architecture for efficient storage and retrieval</li>
-                            <li>Developed front-end interface using Eclipse and designed core logic modules</li>
-                            <li>Project won University Third Prize, performed excellently in multi-maze tests</li>
+                            <li>Designed and optimized database architecture for efficient data storage and retrieval</li>
+                            <li>Developed frontend interaction using Eclipse and designed core logic components</li>
+                            <li>Won university third prize; performed excellently in maze tests</li>
                         </ul>
-                    </section>
+                    </div>
 
                     <!-- Campus Activities -->
-                    <section class="resume-section">
+                    <div class="resume-section">
                         <h2>Campus Activities</h2>
-
-                        <div class="resume-item"><b>Class League Secretary & Class Monitor</b><span>Oct 2021 ~ Jun 2025</span></div>
+                        <div class="resume-item has-date"><b>Class Secretary & Monitor</b><span>2021.10~2025.06</span></div>
                         <ul>
-                            <li>Organized 20+ themed class activities, awarded University Excellent Class and College Excellent League</li>
+                            <li>Organized 20+ themed student activities; awarded Excellent Class & Excellent League Branch</li>
                         </ul>
 
-                        <div class="resume-item"><b>College Student Representative</b><span>Nov 2021 ~ Nov 2022</span></div>
+                        <div class="resume-item has-date"><b>Student Representative</b><span>2021.11~2022.11</span></div>
                         <ul>
-                            <li>Presided over college student representative meetings and facilitated proposal implementations</li>
+                            <li>Presided over college-level student congress, promoted proposals to implementation</li>
                         </ul>
-                    </section>
+                    </div>
+
                 </div>
 
-                <!-- Footer -->
                 <div class="post-footer" id="post-footer">
-                    <!-- Original footer content -->
+                    <!-- ...retain original footer content... -->
                 </div>
             </article>
         </div>
@@ -210,7 +315,6 @@
     </footer>
 </div>
 
-<!-- Fixed Buttons -->
 <div id="fixed-buttons">
     <a href="#" id="back-to-top" class="fixed-button" title="Back to Top"><i class="fas fa-arrow-up fa-fw"></i></a>
     <a href="#" id="view-comments" class="fixed-button" title="View Comments"><i class="fas fa-comment fa-fw"></i></a>
