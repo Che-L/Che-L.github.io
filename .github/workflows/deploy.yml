@@ -3,6 +3,7 @@ name: Deploy Hugo Blog
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   deploy:
