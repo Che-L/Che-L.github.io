@@ -1,0 +1,57 @@
+baseURL = "https://che-l.github.io/"
+languageCode = "en"
+title = "Welcome to Brian's space"
+theme = "FixIt"
+
+[author]
+  name = "Brian Liu"
+  email = "2574260740@qq.com"
+  link = "https://github.com/Che-L"
+
+[params]
+  defaultTheme = "auto"
+  description = "Brian's personal blog"
+
+  [params.home.profile]
+    enable = true
+    avatarURL = "/avatar/AppleProfile.jpg"
+    title = "Welcome to My world 🌍"
+    subtitle = "Hello! I'm currently pursuing my postgraduate studies at University of Bristol and actively seeking job opportunities!"
+    typeit = true         # 打字机动效
+    social = true         # 显示社交图标
+
+  [params.footer]
+    enable = true
+    copyright = true
+    author = true
+    since = 2024
+
+  [params.social]
+    GitHub = "Che-L"
+    steam = "76561198911249559"
+    bilibili = "113521564"
+    Email = "2574260740@qq.com"
+
+  [params.customFilePath]
+  style = "css/_custom.scss"
+
+[[menus.main]]
+  name = "📄 Resume"
+  url = "/resume/"
+  weight = 4
+
+[[menus.main]]
+  name = "📒 Posts"
+  url = "/posts/"
+  weight = 1
+
+[[menus.main]]
+  name = "🔖 Tags"
+  url = "/tags/"
+  weight = 2
+
+[[menus.main]]
+  name = "🏷️ Categories"
+  url = "/categories/"
+  weight = 3
+
