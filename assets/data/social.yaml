@@ -1,0 +1,6 @@
+steam:
+  Weight: 39
+  Prefix: https://steamcommunity.com/profiles/
+  Title: Steam
+  Icon:
+    Class: fa-brands fa-steam
