@@ -2,6 +2,7 @@
 title: "我的中文简历"
 date: 2026-03-05
 draft: false
+authors: "Brian Liu"
 ---
 
 # 刘博文

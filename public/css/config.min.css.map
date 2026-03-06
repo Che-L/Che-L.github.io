@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "config.min.css",
-	"sourceRoot": "D:/Project-Bristol/my-blog",
+	"sourceRoot": "D:/Project/my-blog",
 	"sources": [
 		"themes/FixIt/assets/css/config.template.scss",
 		"themes/FixIt/assets/css/_variables.scss",

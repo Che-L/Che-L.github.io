@@ -11,6 +11,7 @@ theme = "FixIt"
 [params]
   defaultTheme = "auto"
   description = "Brian's personal blog"
+  author = "Brian Liu"
 
   [params.home.profile]
     enable = true
@@ -19,6 +20,8 @@ theme = "FixIt"
     subtitle = "Hello! I'm currently pursuing my postgraduate studies at University of Bristol and actively seeking job opportunities!"
     typeit = true         # 打字机动效
     social = true         # 显示社交图标
+    author = "Brian Liu"
+    rss = false  
 
   [params.footer]
     enable = true

@@ -2,6 +2,7 @@
 title: "My English Resume"
 date: 2026-03-05
 draft: false
+authors: "Brian Liu"
 ---
 
 # Bowen Liu
