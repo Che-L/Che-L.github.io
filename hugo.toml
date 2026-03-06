@@ -30,9 +30,12 @@ theme = "FixIt"
 
   [params.social]
     GitHub = "Che-L"
-    Steam = "CheL"
     bilibili = "113521564"
     Email = "2574260740@qq.com"
+    [params.social.Steam]
+      Url = "https://steamcommunity.com/profiles/76561198911249559"
+      Title = "Steam"
+      Weight = 39
 
   [params.customFilePath]
   style = "css/_custom.scss"
