@@ -30,7 +30,7 @@ theme = "FixIt"
 
   [params.social]
     GitHub = "Che-L"
-    steam = "76561198911249559"
+    Steam = "https://steamcommunity.com/profiles/76561198911249559"
     bilibili = "113521564"
     Email = "2574260740@qq.com"
 
